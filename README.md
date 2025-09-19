@@ -62,6 +62,7 @@ print(restep(url_to_local_government_document,api_key))
 
 ## How does RE-STEP work?
 
-[View Figure.pdf](Figure.pdf)
+![Figure](Figure.jpg)
+
 
 Our paper is currently under review at ACM BuildSys '25. Stay-tuned for updates if you are curious for more details. 
