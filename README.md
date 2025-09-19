@@ -38,6 +38,7 @@ You will need a huggingface access token. To obtain one:
 1. you'd first need to create a [huggingface](https://huggingface.co) account if you do not have one. 
 2. Create and store a new access token. To learn more, please refer to [huggingface.co/docs/hub/en/security-tokens](https://huggingface.co/docs/hub/en/security-tokens).  
 3. Note: Some pre-trained large language models (LLMs) may require permissions. For more information, please refer to [huggingface.co/docs/hub/en/models-gated](https://huggingface.co/docs/hub/en/models-gated).  
+4. Request for permission for `meta-llama/Llama-3.1-8B-Instruct` at https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct. 
 
 
 
