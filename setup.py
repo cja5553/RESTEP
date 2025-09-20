@@ -7,7 +7,7 @@ readme_path = os.path.join(here, "README.md")
 with codecs.open(readme_path, encoding="utf-8") as fh:
     long_description = fh.read()
 
-VERSION = "0.0.1"
+VERSION = "0.0.3"
 DESCRIPTION = "Reason-based RAG for Early-Stage Developers for Community-based Prospecting (RE-STEP)"
 LONG_DESCRIPTION = (
     "A GenAI prospecting tool for assessing community-based factors, "
@@ -28,7 +28,8 @@ setup(
         "requests",
         "PyPDF2",
         "python-docx",
-        "langchain",
+        "langchain>=0.2",
+        "langchain-community>=0.2",
         "tqdm",
         "transformers",
         "torch",
